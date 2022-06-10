@@ -1,0 +1,21 @@
+.header {
+    display: grid;
+    grid-template-columns: 2% 8% 90%;
+    width: 100vw;
+    box-shadow: 0 0 10px rgba(0,0,0,.16);
+    height: 13vh;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+    height: 100%;
+    max-width: 100%;
+}
+
+.logo img {
+    max-width: 5.5vw;
+}
